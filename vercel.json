@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "public": false,
+  "buildCommand": "cd Frontend && npm install && npm run build -- --configuration production",
+  "outputDirectory": "Frontend/dist/frontend",
+  "framework": null,
+  "installCommand": "cd Frontend && npm install",
+  "devCommand": "cd Frontend && npm start",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
