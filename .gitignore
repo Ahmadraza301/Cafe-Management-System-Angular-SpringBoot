@@ -1,0 +1,50 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Maven
+Backend/target/
+Backend/.mvn/
+Backend/mvnw
+Backend/mvnw.cmd
+
+# Node
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.angular/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Sensitive files
+Backend/src/main/resources/application.properties
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
